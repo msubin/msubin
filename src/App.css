@@ -702,7 +702,7 @@ button {
 
 .swiper-slide {
   text-align: center;
-  background: #fff;
+  background: var(--body-color);
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -957,11 +957,11 @@ button {
   }
   .swiper-button-prev {
     position: absolute;
-    left: 100px !important;
+    left: 40px !important;
   }
   .swiper-button-next {
     position: absolute;
-    right: 100px !important;
+    right: 40px !important;
   }
 }
 
