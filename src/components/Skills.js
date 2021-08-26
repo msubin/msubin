@@ -57,7 +57,7 @@ class Skills extends Component {
 
                             <div>
                                 <h1 className="skills__title">Frontend Developer</h1>
-                                <span className="skills__subtitle">More than 4 years</span>
+                                <span className="skills__subtitle">Learning</span>
                             </div>
 
                             <i className="fas fa-angle-down skills__arrow"></i>
@@ -76,7 +76,7 @@ class Skills extends Component {
 
                             <div>
                                 <h1 className="skills__title">Backend Developer</h1>
-                                <span className="skills__subtitle">More than 4 years</span>
+                                <span className="skills__subtitle">Learning</span>
                             </div>
 
                             <i className="fas fa-angle-down skills__arrow"></i>
@@ -95,7 +95,7 @@ class Skills extends Component {
 
                             <div>
                                 <h1 className="skills__title">Other Softwares</h1>
-                                <span className="skills__subtitle">More than 4 years</span>
+                                <span className="skills__subtitle">Learning</span>
                             </div>
 
                             <i className="fas fa-angle-down skills__arrow"></i>
