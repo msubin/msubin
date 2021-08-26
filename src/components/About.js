@@ -33,7 +33,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="about__buttons">
+                    <div className="about__buttons" style={{ display: 'none' }}>
                         <a download="" href="assets/pdf/Subin-Cv.pdf" className="button button--flex">
                             Download CV <i className="fas fa-file-download about__button-icon"></i>
                         </a>
