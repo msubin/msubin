@@ -1,16 +1,14 @@
 import firebase from "firebase";
 
 var firebaseApp = firebase.initializeApp({
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    apiKey: "AIzaSyB1ikzejNAIWReUOc146wd0_P1l3MB5_6Y",
-    authDomain: "portfolio-ba2a2.firebaseapp.com",
-    databaseURL: "https://portfolio-ba2a2-default-rtdb.firebaseio.com",
-    projectId: "portfolio-ba2a2",
-    storageBucket: "portfolio-ba2a2.appspot.com",
-    messagingSenderId: "776708970795",
-    appId: "1:776708970795:web:a7795ab49b17fc46bdcd6e",
-    measurementId: "G-W4FMDMJ8X3"
+    apiKey: process.env.REACT_APP_APIKEY,
+    authDomain: process.env.REACT_APP_AUTHDOMAIN,
+    databaseURL: process.env.REACT_APP_DATABASEURL,
+    projectId: process.env.REACT_APP_PROJECTID,
+    storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
+    appId: process.env.REACT_APP_APPID,
+    measurementId: process.env.REACT_APP_MEAUREMENTID
 })
 
 var db = firebaseApp.firestore();
