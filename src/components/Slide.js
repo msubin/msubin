@@ -33,8 +33,8 @@ const Slide = ({ projects }) => {
                                 <p className="portfolio__description">
                                     {project.desc}
                                 </p>
-                                <a href="#" className="button button--flex button--small portfolio__button">
-                                    Demo
+                                <a href={project.github} className="button button--flex button--small portfolio__button" target="_blank">
+                                    Github
                                     <i className="fas fa-arrow-right button__icon"></i>
                                 </a>
                             </div>

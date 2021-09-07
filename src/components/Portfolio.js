@@ -9,22 +9,32 @@ class Portfolio extends Component {
         this.state = {
             projects: [
                 {
+                    title: "Lukiest Numbers",
+                    desc: "A webscraper to extract winning result data from a website. Through ETL process, load the most frequent winning numbers and visualize it.",
+                    img: "/images/lottomax.jpg",
+                    github: "https://github.com/subin-moon-1205/webscraper",
+                    id: 1
+                },
+                {
                     title: "Binwhere",
                     desc: "A web application to help decrease the rate of littering on the street by showing all the bins near users’ current location.",
                     img: "/images/binwhere.png",
-                    id: 1
+                    github: "https://binwhere.azurewebsites.net/",
+                    id: 2
                 },
                 {
                     title: "ShopSmart",
                     desc: "A web application to store items on users’ shopping lists and pantry lists. Developed in a group of 4.",
                     img: "/images/shopsmart.png",
-                    id: 2
+                    github: "https://github.com/Bromaniuk/COMP1800_Project_ShopSmart",
+                    id: 3
                 },
                 {
                     title: "Namu",
                     desc: "A game aiming to raise awareness about the importance of the ocean ecosystem. Developed in a group of 5.",
                     img: "/images/namu.jpeg",
-                    id: 3
+                    github: "https://github.com/DmitriGolota/hack-the-break",
+                    id: 4
                 }
             ]
         }
