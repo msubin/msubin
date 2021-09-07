@@ -1,5 +1,6 @@
 import React from 'react';
-import { ReactComponent as Blob } from '../assets/blob.svg';
+// import { ReactComponent as Blob } from '../assets/blob.svg';
+import home_square from '../assets/home_square.jpg';
 
 const Home = () => {
     return (
@@ -20,7 +21,8 @@ const Home = () => {
                 </div>
 
                 <div className="home__img">
-                    <Blob />
+                    {/* <Blob /> */}
+                    <img src={home_square} className="home__blob-img" />
                 </div>
 
                 <div className="home__data">

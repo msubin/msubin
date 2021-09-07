@@ -334,14 +334,14 @@ button {
   color: var(--first-color-alt);
 }
 
-.home__blob {
+/* .home__blob {
   width: 200px;
   fill: var(--first-color);
-}
+} */
 
 .home__blob-img {
-  width: 170px;
-}
+  width: 400px;
+} 
 
 .home__data {
   grid-column: 1/3;
