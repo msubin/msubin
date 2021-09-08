@@ -19,7 +19,7 @@ class Portfolio extends Component {
                     title: "Binwhere",
                     desc: "A web application to help decrease the rate of littering on the street by showing all the bins near users’ current location.",
                     img: "/images/binwhere.png",
-                    github: "https://binwhere.azurewebsites.net/",
+                    github: "https://github.com/hnngo/COMP-2800-Team-DTC-01-BinWhere",
                     id: 2
                 },
                 {
