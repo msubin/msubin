@@ -22,7 +22,7 @@ const Home = () => {
 
                 <div className="home__img">
                     {/* <Blob /> */}
-                    <img src={home_square} className="home__blob-img" />
+                    <img src={home_square} className="home__blob-img" alt="Subin" />
                 </div>
 
                 <div className="home__data">

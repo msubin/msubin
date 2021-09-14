@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../assets/pdf/Resume.pdf';
 
 const About = () => {
     return (
@@ -33,8 +34,8 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="about__buttons" style={{ display: 'none' }}>
-                        <a download="" href="assets/pdf/Subin-Cv.pdf" className="button button--flex">
+                    <div className="about__buttons">
+                        <a download="Resume_MSubin" href={resume} className="button button--flex">
                             Download CV <i className="fas fa-file-download about__button-icon"></i>
                         </a>
                     </div>
