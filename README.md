@@ -4,7 +4,6 @@
 
 I’m Subin Moon, currently studying Computer Systems Technology at British Columnbia Institute of Technology. 
 
-- ✨ I'm currently looking for jr. software development or jr. data engineer opportunities.
 - 📫 How to reach me **smoon44@my.bcit.ca**
 - 🤗 Visit my website: **https://www.subinmoon.xyz/**
 
