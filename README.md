@@ -5,7 +5,7 @@
 I’m Subin Moon, currently studying Computer Systems Technology at British Columnbia Institute of Technology. 
 
 - 📫 How to reach me **smoon44@my.bcit.ca**
-- 🤗 Visit my website: **https://www.subinmoon.xyz/**
+- 🤗 Visit my website: **https://msubin.notion.site/Subin-Moon-Software-Developer-8c5187b9325641a88714594eaebf640e**
 
 <br/>
 
